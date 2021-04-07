@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+// Import Bootstrap
+@import "~bootstrap/scss/bootstrap";
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+@import "scss/variables";
+// Import Custom SB Admin 2 Mixins and Components
+@import "scss/mixins";
+@import "scss/global";
+@import "scss/utilities";
+
+// Custom Components
+@import "scss/dropdowns";
+@import "scss/navs";
+@import "scss/buttons";
+@import "scss/cards";
+@import "scss/charts";
+@import "scss/login";
+@import "scss/error";
+@import "scss/footer";
